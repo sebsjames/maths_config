@@ -1,0 +1,6 @@
+[submodule "json"]
+	path = json
+	url = git@github.com:nlohmann/json
+[submodule "maths"]
+	path = maths
+	url = git@github.com:sebsjames/maths
