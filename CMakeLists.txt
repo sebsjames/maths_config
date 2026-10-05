@@ -95,7 +95,7 @@ endfunction()
 #
 # Module groups. see module_definitions.cmake
 #
-setup_module_variables_for_maths (${PROJECT_SOURCE_DIR}/maths ${PROJECT_SOURCE_DIR}/json)
+setup_module_variables_for_maths_config (${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/json ${PROJECT_SOURCE_DIR}/maths)
 
 # The sm.config module is here
 add_subdirectory(sm)
